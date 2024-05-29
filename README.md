@@ -4,6 +4,7 @@ Analyzing eye fixations data of multiple participants to establish the statistic
 For the analysis this repository contains 3 python files. The main data file "Q1 - Eye_data.csv" is not here but can be provided privately if requested.
 
 The python files:
+
 **Eye_data_visualisation_trial_1.py** - reads eye-tracking data from a CSV file, extracts specific columns related to participant number, trial number, and eye coordinates, then creates a scatter plot of the X and Y coordinates of the left eye for a specific participant and trial. The scatter plot visualizes the points of focus during the trial.
 
 **Eye_velocity_visualisation_trial_1.py** - reads eye-tracking data from a CSV file, calculates velocities and identifies fixations based on predefined parameters. It then plots the smoothed eyes velocity over time for a specific trial. Based on this it is possible to visually detect fixations and saccades.
